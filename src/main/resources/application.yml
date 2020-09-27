@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  redis:
+    host: 192.168.188.146
+    port: 6379
+  session:
+    timeout: #超时时间1800
+    store-type: redis
